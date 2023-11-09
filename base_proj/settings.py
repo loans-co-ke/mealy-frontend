@@ -166,6 +166,7 @@ CORS_ALLOW_CREDENTIALS = True
 CORS_ORIGIN_WHITELIST = (
     'http://localhost:3000',
     'http://localhost:8000'
+    'https://enchanting-rolypoly-40956f.netlify.app'
 )
 
 CORS_ALLOW_HEADERS = [
@@ -180,7 +181,7 @@ CORS_ALLOW_HEADERS = [
     'Access-Control-Allow-Credentials',
 ]
 
-CORS_ALLOWED_ORIGINS = ['http://localhost:3000']
+CORS_ALLOWED_ORIGINS = ['http://localhost:3000', 'https://enchanting-rolypoly-40956f.netlify.app']
 
 CORS_ALLOW_METHODS = [
     'GET',
